@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+	<title>Cal Animage Alpha - Library Finder</title>
+	<link href="css/bootstrap.css" rel="stylesheet"></link>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap-typeahead.js"></script>
+	<script type="text/javascript" src="js/bootstrap-alert.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="page-header">
+		<h1>Cal Animage Alpha Library Finder</h1>
+	</div>
+	<div class="row">
+		<div class="span6">
+			<p>Just start typing the name of an anime series.</p>
+			<form type="post" method="#" class="form-horizontal" onSubmit="return void(0)">
+				<input type="text" id="animeSearch" data-provide="typeahead" />
+				<a id="addAnimeButton" class="btn btn-primary" href="javascript:void(0)">
+					Add Anime
+				</a>
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span4">
+			<div class="page-header">
+				<h2>Drive A</h2>
+			</div>
+			<ul id="drive-a" class="unstyled">
+			</ul>
+		</div>
+		<div class="span4">
+			<div class="page-header">
+				<h2>Drive B</h2>
+			</div>
+			<ul id="drive-b" class="unstyled">
+			</ul>
+		</div>
+		<div class="span4">
+			<div class="page-header">
+				<h2>Drive C</h2>
+			</div>
+			<ul id="drive-c" class="unstyled">
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>
